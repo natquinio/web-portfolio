@@ -63,16 +63,42 @@ html {
 	align-items: center;
 	padding: 5px;
 	margin: 0px 8px;
-	width: 80px;
-	height: 32px;
-	border-radius: 25%;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
 	background-color: #BF684D;
 	border: 1px solid #BF684D;
 	color: white;
-	box-shadow: 8px 8px 5px rgba(0,0,0,0.4);
+	box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
 	display: flex;
 
 	transition: 0.2s ease;
+}
+
+.resume-container a button {
+	padding: 0.4rem;
+	height: 48px;
+	background: transparent;
+	border: 2px solid black;
+	border-radius: 1rem;
+	box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+	transition: 0.2s ease;
+}
+
+.resume-container {
+	margin: 0 0.4rem;
+}
+
+.resume-container a button span {
+	margin: 0 3	px;
+}
+
+.resume-container a button:hover {
+	transform: scale(1.02);
+	color: #C47C25;
+	background-color: #F3BE4B;
+	text-decoration: none;
+	border: 2px solid #C47C25;
 }
 
 .link:hover {
@@ -123,6 +149,10 @@ main {
 	margin-bottom: -5rem;
 	border-radius: 15px;
 	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+
+.contact-info .fas {
+	margin-right: 0.5rem;
 }
 
 .content-row {
@@ -212,7 +242,6 @@ main {
 	font-weight: bold;
 	margin: 0px 8px;
 	padding: 4px 8px;
-
 	border: 3px solid black;
 	border-radius: 10px;
 	box-shadow: 8px 8px 5px rgba(0,0,0,0.4);

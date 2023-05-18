@@ -17,6 +17,9 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+		<!-- Font Awesome link -->
+		<script src="https://kit.fontawesome.com/40fe08962d.js" crossorigin="anonymous"></script>
+
 
 		<title>Joseph Nathaniel Quinio | Full Stack Web Developer</title>
 	</head>
@@ -35,9 +38,6 @@
 			      <li class="nav-item">
 			        	<a class="nav-link" href="#jump-projects">Projects</a>
 			      </li>
-			      <li class="nav-item">
-			        	<a class="nav-link" href="#jump-contacts">Contact</a>
-			      </li>
 		    </ul>
 	 	 </div>
 	</nav>
@@ -50,13 +50,35 @@
 				<div class="col-lg-6 col-md-8 header-one">
 					<img src="./images/Capture.JPG" class="capture">
 					<span class="header-one-text">Greetings!</span>
-					<h5>My name is <strong>Joseph Nathaniel <em>"Nat"</em> Quinio</strong> and I'm a Full Stack Web Developer in the making.</h5>
+					<h5>My name is <strong>Joseph Nathaniel <em>"Nat"</em> Quinio</strong> and I'm a Full Stack Web Developer.</h5>
 					<div class="links-container">
 						<ul class="links-list">
-							<li><a class="link" href="https://github.com/natquinio">GitHub</a></li>
-							<li><a class="link" href="https://gitlab.com/natquinio">GitLab</a></li>
-							<li><a class="link" href="https://www.linkedin.com/in/joseph-nathaniel-quinio-37ba4a174/">LinkedIn</a></li>
+							<li>
+								<a class="link" href="https://github.com/natquinio" target="_blank">
+									<i class="fab fa-github" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a class="link" href="https://gitlab.com/natquinio" target="_blank">
+									<i class="fab fa-gitlab" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a class="link" href="https://www.linkedin.com/in/joseph-nathaniel-quinio-37ba4a174/" target="_blank">
+									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+								</a>
+							</li>
 						</ul>
+						<div class="resume-container">
+							<a href="./files/resume.pdf" target="_blank" download=""><button>
+								<span class="download-icon-container">
+									<i class="fas fa-download" aria-hidden="true"></i>
+								</span>
+								<span>
+									Resume
+								</span>
+							</button></a>
+						</div>
 					</div>
 				</div>
 				<div class="d-none d-md-block col-md-4 col-lg-6 header-two">
@@ -77,24 +99,35 @@
 					<div class="col-xl-5 about-me">
 						<div>
 							<h4>About Me</h4>
-							<p>I am a Licensed Mechanical Engineer who has taken interest in pursuing the Full Stack Web Developer career. I always look forward to learning and working with talented individuals in the bootcamp.</p>					
+							<p>I am a Licensed Mechanical Engineer who found greater passion in web development. Although I am new, I'm looking to grow with the best people in this industry.</p>
+							<div class="contact-info">
+								<h5>Contact Info:</h5>
+								<p>
+									<i class="fas fa-phone-alt" aria-hidden="true"></i>
+									+63 945 340 3092
+								</p>
+								<p>
+									<i class="fas fa-envelope" aria-hidden="true">
+										
+									</i>
+									natquinio@gmail.com
+								</p>
+							</div>			
 						</div>
 					</div>
 					<div class="col-xl-7 tool-set">
 						<div>
-							<h4>Core Tools</h4>
+							<h4>My Expertise</h4>
+							<p>
+								I can produce appealing and functional websites using the following tools:
+							</p>
 							<div>
 								<ul>
-									<li>HTML/CSS</li>
+									<li>HTML/CSS/Bootstrap</li>
 									<li>Javascript</li>
-								</ul>
-							</div>
-							<h4>Other Tools</h4>
-							<div>
-								<ul>
-									<li>NodeJS</li>
-									<li>MongoDB</li>
-									<li>Sublime Text</li>
+									<li>MongoDB/Express/React/Node</li>
+									<li>Sublime/VSCode</li>
+									<li>Render/Vercel</li>	
 									<li id="jump-projects">Postman</li>
 								</ul>
 							</div>
@@ -110,131 +143,33 @@
 				<div class="row content-row content-row1">
 					<div class="col-xl-7 proj-image">
 						<div class="image-box text-center">
-							<img src="./images/HTML-final.JPG" class="img-liquid w-75">
+							<img src="./images/ecommerce.JPG" class="img-liquid w-75">
 						</div>
 					</div>
 					<div class="col-xl-5 proj-code">
-						<h3><strong>Code of Ethics</strong></h3>
+						<h3><strong>Natflix</strong></h3>
 						<ul class="tags">
 							<li>HTML</li>
-						</ul>
-						<p>Replicating and linking the contents of a few web pages using different HTML tags and attributes (form, table, and semantic).</p>
-						<div class="visit-site">
-							<a href="">
-								<!-- FOR FUTURE REFERENCE -->
-								<button>
-									Visit Website
-								</button>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="row content-row content-row1">
-					<div class="col-xl-5 proj-code proj-code-1">
-						<h3><strong>Developer Career Program</strong></h3>
-						<ul class="tags">
 							<li>CSS</li>
+							<li>MongoDB</li>
+							<li>ExpressJS</li>
+							<li>ReactJS</li>
+							<li>NodeJS</li>
 						</ul>
-						<p>Changing the style of HTML elements using CSS properties.</p>
+						<p>Supplying your daily architectural needs, <b>Natflix</b> is a project served as the culminating capstone for our Bootcamp. The website tackles the functionality of an E-commerce API and is fully responsive for mobile use. </p>
 						<div class="visit-site">
-							<a href="">
+							<a href="https://fullstack-capstone-3-quinio-capstone-3-quinio.vercel.app/" target="_blank">
 								<!-- FOR FUTURE REFERENCE -->
 								<button>
 									Visit Website
-								</button>
-							</a>
-						</div>
-					</div>
-					<div class="col-xl-7 proj-image proj-image__left">
-						<div class="image-box text-center">
-							<img src="./images/CSS-final.JPG" class="img-liquid w-75">
-						</div>
-					</div>
-				</div>
-				<div class="row content-row content-row1">
-					<div class="col-xl-7 proj-image">
-						<div class="image-box text-center">
-							<img src="./images/bootstrapfinal.JPG" class="img-liquid w-75">
-						</div>
-					</div>
-					<div class="col-xl-5 proj-code">
-						<h3><strong>Ada Lovelace</strong></h3>
-						<ul class="tags">
-							<li>Bootstrap</li>
-						</ul>
-						<p>Implementing bootsrap and applying grid/flex classes to HTML elements in order to manipulate the layout and style.</p>
-							<div class="visit-site">
-							<a href="" id="jump-contacts">
-								<!-- FOR FUTURE REFERENCE -->
-								<button>
-									Visit Website
+									<i class="fas fa-external-link-alt" aria-hidden="true"></i>
 								</button>
 							</a>
 						</div>
 					</div>
 				</div>
 			<!-- Latest Projects End -->
-			<!-- Contact Me Start BOOTSTRAP ONLY-->
-				<div class="bg-secondary min-vh-75 text-warning text-center pb-3 contact-border">
-					<h3 class="pt-5 pb-3 contact-me">Contact Me</h3>
-					<div class="container col-xl-4 col-md-8 col-sm-12 bg-dark p-3">
-						<form>
-						  <div class="form-group">
-						    <label for="exampleFormControlInput1">Name</label>
-						    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
-						  </div>
-						  <div class="form-group">
-						    <label for="exampleFormControlInput2">Email Address</label>
-						    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-						  </div>
-						  <div class="form-group">
-						    <label for="exampleFormControlInput3">Contact Number</label>
-						    <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="+63 900 000 0000">
-						  </div>
-						  <div class="form-group">
-						   	<label for="exampleFormControlSelect1">Concern</label>
-						    <select class="form-control" id="exampleFormControlSelect1">
-						      <option>Project Assignment</option>
-						      <option>Employment</option>
-						      <option>Partnership</option>
-						      <option>Others</option>
-						    </select>
-						  </div>
-						
-						  <div class="form-group">
-						    <label for="exampleFormControlTextarea1">Message</label>
-						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-						  </div>
-
-						  <!-- Button trigger modal -->
-						  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
-						    Send Email
-						  </button>
-
-						  <!-- Modal Start -->
-						  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						    <div class="modal-dialog">
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
-						          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						            <span aria-hidden="true">&times;</span>
-						          </button>
-						        </div>
-						        <div class="modal-body 	text-dark">
-						          Message Successfully Sent
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        </div>
-						      </div>
-						    </div>
-						  </div>
-						  <!-- Modal End -->
-						</form>
-					</div>
-				</div>
-		<!-- Contact Me End BOOTSTRAP ONLY-->
+			
 	</main>
 	<!-- Main Content End -->
 
