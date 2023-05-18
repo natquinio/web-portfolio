@@ -29,7 +29,7 @@ html {
 	left: 3.5rem;
 	width: calc(100vw - 7rem);
 	border-radius: 15px;
-	background: linear-gradient(to right, #DFA6A6, #F3A932);
+	background: linear-gradient(to right, #D7D0C8, #D7D0C8);
 	
 }
 
@@ -66,9 +66,9 @@ html {
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	background-color: #BF684D;
-	border: 1px solid #BF684D;
-	color: white;
+	background-color: #D7D0C8;
+	border: 2px solid black;
+	color: black;
 	box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
 	display: flex;
 
@@ -95,17 +95,17 @@ html {
 
 .resume-container a button:hover {
 	transform: scale(1.02);
-	color: #C47C25;
-	background-color: #F3BE4B;
+	color: white;
+	background-color: black;
 	text-decoration: none;
-	border: 2px solid #C47C25;
+	border: 2px solid black;
 }
 
 .link:hover {
-	color: #C47C25;
-	background-color: #F3BE4B;
+	color: white;
+	background-color: black;
 	text-decoration: none;
-	border: 2px solid #C47C25;
+	border: 2px solid black;
 }
 
 .fab {
@@ -203,7 +203,7 @@ main {
 	border-radius: 10px;
 	box-shadow: 6px 6px 5px rgba(0,0,0,0.4);
 	transform: 	translateY(-50%);
-	background: linear-gradient(to right, #DFA6A6, #F3A932);
+	background: linear-gradient(to right, #D7D0C8, #D7D0C8);
 	margin-left: 2rem;
 }
 
@@ -223,7 +223,7 @@ main {
 	padding: 2px 5px;
 	border-radius: 5px;
 	font-size: 0.8rem;
-	background: linear-gradient(to right, #DFA6A6, #F3A932);
+	background: linear-gradient(to right, #D7D0C8, #D7D0C8);
 }
 
 .visit-site {
@@ -249,9 +249,9 @@ main {
 }
 
 .visit-site a button:hover{
-	background: orange;
-	border-color: orange;
-	color: yellow;
+	background: black;
+	border-color: black;
+	color: white;
 }
 
 .image-box img {
